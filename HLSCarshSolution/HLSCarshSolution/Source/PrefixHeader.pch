@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  HLSCarshSolution
+//
+//  Created by liaoshen on 2020/11/14.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "HLSDicKeyNilViewController.h"
+
+#import "HLSCrashModel.h"
+#import "NSArray+HLSCategory_lib.h"
+#import "NSMutableArray+HLSCategory_lib.h"
+#import "NSDictionary+HLSCategory_lib.h"
+
+#endif /* PrefixHeader_pch */
