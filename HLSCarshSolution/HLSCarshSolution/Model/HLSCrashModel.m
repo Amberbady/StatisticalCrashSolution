@@ -18,7 +18,14 @@
         [_dataArray addObject:[self addCrashModelWith:@"可变数组的添加" andWith:HLSCrashMutArrayAdd]];
         [_dataArray addObject:[self addCrashModelWith:@"可变数组的插入" andWith:HLSCrashMutArrayInsert]];
         [_dataArray addObject:[self addCrashModelWith:@"可变数组的删除" andWith:HLSCrashMutArrayRemove]];
-
+        [_dataArray addObject:[self addCrashModelWith:@"字符串操作" andWith:HLSCrashStringOperation]];
+        [_dataArray addObject:[self addCrashModelWith:@"内存暴增，局部变量没有释放" andWith:HLSCrashMemoryExplosion]];
+        [_dataArray addObject:[self addCrashModelWith:@"截取字符串、数组、NSData越界" andWith:HLSCrashSubstringRange]];
+        [_dataArray addObject:[self addCrashModelWith:@"字符串类型错误" andWith:HLSCrashStringTypeError]];
+        [_dataArray addObject:[self addCrashModelWith:@"主线程死锁1" andWith:HLSCrashDeadLockError1]];
+        [_dataArray addObject:[self addCrashModelWith:@"主线程死锁2" andWith:HLSCrashDeadLockError2]];
+        [_dataArray addObject:[self addCrashModelWith:@"Inf" andWith:HLSCrashInfError]];
+        [_dataArray addObject:[self addCrashModelWith:@"Nan" andWith:HLSCrashNanError]];
     }
     return _dataArray;
 }

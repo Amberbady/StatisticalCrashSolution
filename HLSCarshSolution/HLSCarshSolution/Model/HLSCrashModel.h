@@ -17,6 +17,14 @@ typedef NS_ENUM(NSInteger , HLSCrashType) {
     HLSCrashMutArrayAdd = 4,      // 可变数组的添加
     HLSCrashMutArrayInsert = 5,      // 可变数组的插入
     HLSCrashMutArrayRemove = 6,      // 可变数组的删除
+    HLSCrashStringOperation = 7,      // 字符串操作
+    HLSCrashMemoryExplosion = 8,      // 内存暴增，局部变量没有释放
+    HLSCrashSubstringRange = 9,      // 截取字符串、数组、NSData越界
+    HLSCrashStringTypeError = 10,      // 格式化字符串类型错误
+    HLSCrashDeadLockError1 = 11,      // 主线程死锁1
+    HLSCrashDeadLockError2 = 12,      // 主线程死锁2
+    HLSCrashInfError = 13,      // Inf
+    HLSCrashNanError = 14,      // Nan
 };
 
 @interface HLSCrashModel : NSObject
