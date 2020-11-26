@@ -25,6 +25,9 @@ typedef NS_ENUM(NSInteger , HLSCrashType) {
     HLSCrashDeadLockError2 = 12,      // 主线程死锁2
     HLSCrashInfError = 13,      // Inf
     HLSCrashNanError = 14,      // Nan
+    HLSCrashMutableStringCopy = 15,      // NSMutableString属性声明为copy程序崩溃了
+    HLSCrashForwardingMessage = 16,     //消息转发
+    HLSCrashNSNull = 17,     //获取的数据为null导致奔溃
 };
 
 @interface HLSCrashModel : NSObject

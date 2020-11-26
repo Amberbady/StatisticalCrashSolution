@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "HLSCrashModel.h"
+#import "HLSPerson.h"
 #define kCrashStringError  123
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -75,6 +76,18 @@
 
 - (void)crashExampleWithType:(HLSCrashType)type{
     switch (type) {
+        case HLSCrashNSNull:{
+            id dic = [NSNull null];
+            NSLog(@"%@", dic[@"age"]); 
+        }
+            break;
+        case HLSCrashForwardingMessage:{
+            //unrecognized selector sent to instance
+            HLSPerson *person = [[HLSPerson alloc]init];
+            [person run];
+//            [person performSelector:@selector(eat)];
+        }
+            break;
         case HLSCrashDicKeyNil:{
             NSString *str;
             NSDictionary *dic = @{str: @"key"}; // 插入nil对象崩溃

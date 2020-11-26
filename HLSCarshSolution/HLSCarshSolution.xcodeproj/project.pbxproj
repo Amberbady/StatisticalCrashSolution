@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E313A89256F534800B60A29 /* HLSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A88256F534800B60A29 /* HLSPerson.m */; };
+		2E313A8F256F554000B60A29 /* HLSTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A8E256F554000B60A29 /* HLSTiger.m */; };
+		2E313A98256F94AE00B60A29 /* NSNull+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */; };
 		2EBA414F255F7285003FDD93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA414E255F7285003FDD93 /* AppDelegate.m */; };
 		2EBA4152255F7285003FDD93 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4151255F7285003FDD93 /* SceneDelegate.m */; };
 		2EBA4155255F7285003FDD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4154255F7285003FDD93 /* ViewController.m */; };
@@ -43,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E313A87256F534800B60A29 /* HLSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSPerson.h; sourceTree = "<group>"; };
+		2E313A88256F534800B60A29 /* HLSPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSPerson.m; sourceTree = "<group>"; };
+		2E313A8D256F554000B60A29 /* HLSTiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSTiger.h; sourceTree = "<group>"; };
+		2E313A8E256F554000B60A29 /* HLSTiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSTiger.m; sourceTree = "<group>"; };
+		2E313A96256F94AE00B60A29 /* NSNull+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+HLSCategory_lib.h"; sourceTree = "<group>"; };
+		2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+HLSCategory_lib.m"; sourceTree = "<group>"; };
 		2EBA414A255F7285003FDD93 /* HLSCarshSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSCarshSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBA414D255F7285003FDD93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EBA414E255F7285003FDD93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2EBA41B9255F8968003FDD93 /* Source */,
-				2EBA41AF255F8723003FDD93 /* Category */,
+				2EBA41AF255F8723003FDD93 /* DealwithCrashTool */,
 				2EBA41A5255F7C20003FDD93 /* Controller */,
 				2EBA41A4255F7C13003FDD93 /* Model */,
 				2EBA414D255F7285003FDD93 /* AppDelegate.h */,
@@ -166,6 +175,10 @@
 			children = (
 				2EBA4195255F7B8E003FDD93 /* HLSCrashModel.h */,
 				2EBA4196255F7B8E003FDD93 /* HLSCrashModel.m */,
+				2E313A87256F534800B60A29 /* HLSPerson.h */,
+				2E313A88256F534800B60A29 /* HLSPerson.m */,
+				2E313A8D256F554000B60A29 /* HLSTiger.h */,
+				2E313A8E256F554000B60A29 /* HLSTiger.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,7 +194,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		2EBA41AF255F8723003FDD93 /* Category */ = {
+		2EBA41AF255F8723003FDD93 /* DealwithCrashTool */ = {
 			isa = PBXGroup;
 			children = (
 				2EBA41B0255F8944003FDD93 /* NSDictionary+HLSCategory_lib.h */,
@@ -194,8 +207,10 @@
 				2ECE56C62562741500250F7A /* NSObject+HLSCategory_lib.m */,
 				2ECE56CB25637FA200250F7A /* NSString+HLSCategory_lib.h */,
 				2ECE56CC25637FA200250F7A /* NSString+HLSCategory_lib.m */,
+				2E313A96256F94AE00B60A29 /* NSNull+HLSCategory_lib.h */,
+				2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */,
 			);
-			path = Category;
+			path = DealwithCrashTool;
 			sourceTree = "<group>";
 		};
 		2EBA41B9255F8968003FDD93 /* Source */ = {
@@ -336,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E313A8F256F554000B60A29 /* HLSTiger.m in Sources */,
 				2EBA4155255F7285003FDD93 /* ViewController.m in Sources */,
 				2EBA414F255F7285003FDD93 /* AppDelegate.m in Sources */,
 				2EBA41C9255FB5DF003FDD93 /* NSArray+HLSCategory_lib.m in Sources */,
@@ -344,9 +360,11 @@
 				2EBA4197255F7B8E003FDD93 /* HLSCrashModel.m in Sources */,
 				2ECE56C72562741500250F7A /* NSObject+HLSCategory_lib.m in Sources */,
 				2EBA4152255F7285003FDD93 /* SceneDelegate.m in Sources */,
+				2E313A89256F534800B60A29 /* HLSPerson.m in Sources */,
 				2EBA4191255F7979003FDD93 /* HLSDicKeyNilViewController.m in Sources */,
 				2EBA41B2255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m in Sources */,
 				2EBA41CF255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m in Sources */,
+				2E313A98256F94AE00B60A29 /* NSNull+HLSCategory_lib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,4 +16,5 @@
 #import "NSDictionary+HLSCategory_lib.h"
 #import "NSObject+HLSCategory_lib.h"
 #import "NSString+HLSCategory_lib.h"
+#import "NSNull+HLSCategory_lib.h"
 #endif /* PrefixHeader_pch */

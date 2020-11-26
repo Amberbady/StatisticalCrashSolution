@@ -11,6 +11,8 @@
 -(NSMutableArray *)dataArray{
     if (!_dataArray) {
         _dataArray = [[NSMutableArray alloc]init];
+        [_dataArray addObject:[self addCrashModelWith:@"消息转发" andWith:HLSCrashForwardingMessage]];
+        [_dataArray addObject:[self addCrashModelWith:@"获取的数据为null导致奔溃" andWith:HLSCrashNSNull]];
         [_dataArray addObject:[self addCrashModelWith:@"key为nil 会崩溃" andWith:HLSCrashDicKeyNil]];
         [_dataArray addObject:[self addCrashModelWith:@"value为nil 会崩溃" andWith:HLSCrashDicValueNil]];
         [_dataArray addObject:[self addCrashModelWith:@"字典通过key取出值数组接收，是字符串崩溃" andWith:HLSCrashDicValueNilForArray]];
@@ -26,6 +28,8 @@
         [_dataArray addObject:[self addCrashModelWith:@"主线程死锁2" andWith:HLSCrashDeadLockError2]];
         [_dataArray addObject:[self addCrashModelWith:@"Inf" andWith:HLSCrashInfError]];
         [_dataArray addObject:[self addCrashModelWith:@"Nan" andWith:HLSCrashNanError]];
+        [_dataArray addObject:[self addCrashModelWith:@"NSMutableString属性声明为copy程序崩溃了" andWith:HLSCrashMutableStringCopy]];
+        
     }
     return _dataArray;
 }
