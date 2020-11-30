@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HLSDicKeyNilViewController : UIViewController
 ///crashType
 @property (nonatomic,assign)HLSCrashType crashType;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

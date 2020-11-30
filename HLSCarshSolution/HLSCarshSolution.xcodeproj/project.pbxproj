@@ -10,6 +10,12 @@
 		2E313A89256F534800B60A29 /* HLSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A88256F534800B60A29 /* HLSPerson.m */; };
 		2E313A8F256F554000B60A29 /* HLSTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A8E256F554000B60A29 /* HLSTiger.m */; };
 		2E313A98256F94AE00B60A29 /* NSNull+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */; };
+		2E313ACF257495C100B60A29 /* NSObject+HLSForwarding_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313ACE257495C100B60A29 /* NSObject+HLSForwarding_lib.m */; };
+		2E313AD5257496E700B60A29 /* HLSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AD4257496E700B60A29 /* HLSSafeObject.m */; };
+		2E313ADB25749AAC00B60A29 /* HLSSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313ADA25749AAC00B60A29 /* HLSSafeViewController.m */; };
+		2E313AE125749B6300B60A29 /* HLSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AE025749B6300B60A29 /* HLSViewController.m */; };
+		2E313AE725749D7200B60A29 /* HLSSafeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AE625749D7200B60A29 /* HLSSafeView.m */; };
+		2E313AEE25749DC600B60A29 /* HLSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AED25749DC600B60A29 /* HLSView.m */; };
 		2EBA414F255F7285003FDD93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA414E255F7285003FDD93 /* AppDelegate.m */; };
 		2EBA4152255F7285003FDD93 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4151255F7285003FDD93 /* SceneDelegate.m */; };
 		2EBA4155255F7285003FDD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4154255F7285003FDD93 /* ViewController.m */; };
@@ -52,6 +58,18 @@
 		2E313A8E256F554000B60A29 /* HLSTiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSTiger.m; sourceTree = "<group>"; };
 		2E313A96256F94AE00B60A29 /* NSNull+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+HLSCategory_lib.h"; sourceTree = "<group>"; };
 		2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+HLSCategory_lib.m"; sourceTree = "<group>"; };
+		2E313ACD257495C100B60A29 /* NSObject+HLSForwarding_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLSForwarding_lib.h"; sourceTree = "<group>"; };
+		2E313ACE257495C100B60A29 /* NSObject+HLSForwarding_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLSForwarding_lib.m"; sourceTree = "<group>"; };
+		2E313AD3257496E700B60A29 /* HLSSafeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSSafeObject.h; sourceTree = "<group>"; };
+		2E313AD4257496E700B60A29 /* HLSSafeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSSafeObject.m; sourceTree = "<group>"; };
+		2E313AD925749AAC00B60A29 /* HLSSafeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSSafeViewController.h; sourceTree = "<group>"; };
+		2E313ADA25749AAC00B60A29 /* HLSSafeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSSafeViewController.m; sourceTree = "<group>"; };
+		2E313ADF25749B6300B60A29 /* HLSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSViewController.h; sourceTree = "<group>"; };
+		2E313AE025749B6300B60A29 /* HLSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSViewController.m; sourceTree = "<group>"; };
+		2E313AE525749D7200B60A29 /* HLSSafeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSSafeView.h; sourceTree = "<group>"; };
+		2E313AE625749D7200B60A29 /* HLSSafeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSSafeView.m; sourceTree = "<group>"; };
+		2E313AEC25749DC600B60A29 /* HLSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSView.h; sourceTree = "<group>"; };
+		2E313AED25749DC600B60A29 /* HLSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSView.m; sourceTree = "<group>"; };
 		2EBA414A255F7285003FDD93 /* HLSCarshSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSCarshSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBA414D255F7285003FDD93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EBA414E255F7285003FDD93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E313AEB25749DAE00B60A29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E313AEC25749DC600B60A29 /* HLSView.h */,
+				2E313AED25749DC600B60A29 /* HLSView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2EBA4141255F7285003FDD93 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +166,7 @@
 				2EBA41AF255F8723003FDD93 /* DealwithCrashTool */,
 				2EBA41A5255F7C20003FDD93 /* Controller */,
 				2EBA41A4255F7C13003FDD93 /* Model */,
+				2E313AEB25749DAE00B60A29 /* View */,
 				2EBA414D255F7285003FDD93 /* AppDelegate.h */,
 				2EBA414E255F7285003FDD93 /* AppDelegate.m */,
 				2EBA4150255F7285003FDD93 /* SceneDelegate.h */,
@@ -190,6 +218,8 @@
 				2EBA4154255F7285003FDD93 /* ViewController.m */,
 				2EBA418F255F7979003FDD93 /* HLSDicKeyNilViewController.h */,
 				2EBA4190255F7979003FDD93 /* HLSDicKeyNilViewController.m */,
+				2E313ADF25749B6300B60A29 /* HLSViewController.h */,
+				2E313AE025749B6300B60A29 /* HLSViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,6 +239,14 @@
 				2ECE56CC25637FA200250F7A /* NSString+HLSCategory_lib.m */,
 				2E313A96256F94AE00B60A29 /* NSNull+HLSCategory_lib.h */,
 				2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */,
+				2E313ACD257495C100B60A29 /* NSObject+HLSForwarding_lib.h */,
+				2E313ACE257495C100B60A29 /* NSObject+HLSForwarding_lib.m */,
+				2E313AD3257496E700B60A29 /* HLSSafeObject.h */,
+				2E313AD4257496E700B60A29 /* HLSSafeObject.m */,
+				2E313AD925749AAC00B60A29 /* HLSSafeViewController.h */,
+				2E313ADA25749AAC00B60A29 /* HLSSafeViewController.m */,
+				2E313AE525749D7200B60A29 /* HLSSafeView.h */,
+				2E313AE625749D7200B60A29 /* HLSSafeView.m */,
 			);
 			path = DealwithCrashTool;
 			sourceTree = "<group>";
@@ -358,13 +396,19 @@
 				2ECE56CD25637FA200250F7A /* NSString+HLSCategory_lib.m in Sources */,
 				2EBA4160255F7286003FDD93 /* main.m in Sources */,
 				2EBA4197255F7B8E003FDD93 /* HLSCrashModel.m in Sources */,
+				2E313AD5257496E700B60A29 /* HLSSafeObject.m in Sources */,
+				2E313AE125749B6300B60A29 /* HLSViewController.m in Sources */,
 				2ECE56C72562741500250F7A /* NSObject+HLSCategory_lib.m in Sources */,
+				2E313AEE25749DC600B60A29 /* HLSView.m in Sources */,
 				2EBA4152255F7285003FDD93 /* SceneDelegate.m in Sources */,
 				2E313A89256F534800B60A29 /* HLSPerson.m in Sources */,
 				2EBA4191255F7979003FDD93 /* HLSDicKeyNilViewController.m in Sources */,
+				2E313ADB25749AAC00B60A29 /* HLSSafeViewController.m in Sources */,
+				2E313AE725749D7200B60A29 /* HLSSafeView.m in Sources */,
 				2EBA41B2255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m in Sources */,
 				2EBA41CF255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m in Sources */,
 				2E313A98256F94AE00B60A29 /* NSNull+HLSCategory_lib.m in Sources */,
+				2E313ACF257495C100B60A29 /* NSObject+HLSForwarding_lib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

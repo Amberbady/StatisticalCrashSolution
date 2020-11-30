@@ -8,8 +8,6 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import "HLSDicKeyNilViewController.h"
-
 #import "HLSCrashModel.h"
 #import "NSArray+HLSCategory_lib.h"
 #import "NSMutableArray+HLSCategory_lib.h"
@@ -17,4 +15,7 @@
 #import "NSObject+HLSCategory_lib.h"
 #import "NSString+HLSCategory_lib.h"
 #import "NSNull+HLSCategory_lib.h"
+#import "HLSSafeObject.h"
+#import "HLSSafeViewController.h"
+#import "HLSSafeView.h"
 #endif /* PrefixHeader_pch */

@@ -11,7 +11,9 @@
 -(NSMutableArray *)dataArray{
     if (!_dataArray) {
         _dataArray = [[NSMutableArray alloc]init];
-        [_dataArray addObject:[self addCrashModelWith:@"消息转发" andWith:HLSCrashForwardingMessage]];
+        [_dataArray addObject:[self addCrashModelWith:@"object 消息转发" andWith:HLSCrashObjectForwardingMessage]];
+        [_dataArray addObject:[self addCrashModelWith:@"View 消息转发" andWith:HLSCrashViewForwardingMessage]];
+        [_dataArray addObject:[self addCrashModelWith:@"Controller 消息转发" andWith:HLSCrashControllerForwardingMessage]];
         [_dataArray addObject:[self addCrashModelWith:@"获取的数据为null导致奔溃" andWith:HLSCrashNSNull]];
         [_dataArray addObject:[self addCrashModelWith:@"key为nil 会崩溃" andWith:HLSCrashDicKeyNil]];
         [_dataArray addObject:[self addCrashModelWith:@"value为nil 会崩溃" andWith:HLSCrashDicValueNil]];

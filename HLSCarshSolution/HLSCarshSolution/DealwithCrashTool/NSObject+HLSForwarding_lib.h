@@ -1,17 +1,15 @@
 //
-//  HLSPerson.h
+//  NSObject+HLSForwarding_lib.h
 //  HLSCarshSolution
 //
-//  Created by liaoshen on 2020/11/26.
+//  Created by liaoshen on 2020/11/30.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HLSPerson : HLSSafeObject
-
-//-(void)run;
+@interface NSObject (HLSForwarding_lib)
 
 @end
 

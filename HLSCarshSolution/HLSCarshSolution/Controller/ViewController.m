@@ -6,13 +6,18 @@
 //
 
 #import "ViewController.h"
+#import "HLSViewController.h"
+#import "HLSDicKeyNilViewController.h"
 #import "HLSCrashModel.h"
 #import "HLSPerson.h"
+#import "HLSView.h"
+
 #define kCrashStringError  123
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView *tableview;
 @property (nonatomic,strong)HLSCrashModel *crashModel;
+
 @end
 
 @implementation ViewController
@@ -81,11 +86,19 @@
             NSLog(@"%@", dic[@"age"]); 
         }
             break;
-        case HLSCrashForwardingMessage:{
+        case HLSCrashViewForwardingMessage:{
+            HLSView *view = [[HLSView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+            view.backgroundColor = [UIColor redColor];
+            view.hidden = NO;
+            [view show];
+            [self.view addSubview:view];
+        }
+            break;
+        case HLSCrashObjectForwardingMessage:{
             //unrecognized selector sent to instance
             HLSPerson *person = [[HLSPerson alloc]init];
-            [person run];
-//            [person performSelector:@selector(eat)];
+//            [person run];
+            [person performSelector:@selector(eat)];
         }
             break;
         case HLSCrashDicKeyNil:{
@@ -159,6 +172,14 @@
         case HLSCrashMemoryExplosion:
         {
             HLSDicKeyNilViewController *VC = [[HLSDicKeyNilViewController alloc]init];
+            [self.navigationController pushViewController:VC animated:YES];
+        }
+            break;
+        case HLSCrashControllerForwardingMessage:
+        {
+            HLSViewController *VC = [[HLSViewController alloc]init];
+//            [VC run:@"123" count:123];
+            [VC runMore:@"123" count:123 run:@"123" run:@"123" run:@"123"];
             [self.navigationController pushViewController:VC animated:YES];
         }
             break;
