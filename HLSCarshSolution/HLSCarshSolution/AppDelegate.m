@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  HLSCrashSolution
+//  MMCrashSolution
 //
 //  Created by liaoshen on 2020/11/14.
 //

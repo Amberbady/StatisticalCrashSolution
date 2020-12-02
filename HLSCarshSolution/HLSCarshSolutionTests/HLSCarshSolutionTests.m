@@ -1,17 +1,17 @@
 //
-//  HLSCrashSolutionTests.m
-//  HLSCrashSolutionTests
+//  MMCrashSolutionTests.m
+//  MMCrashSolutionTests
 //
 //  Created by liaoshen on 2020/11/14.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface HLSCrashSolutionTests : XCTestCase
+@interface MMCrashSolutionTests : XCTestCase
 
 @end
 
-@implementation HLSCrashSolutionTests
+@implementation MMCrashSolutionTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

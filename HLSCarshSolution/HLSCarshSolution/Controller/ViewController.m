@@ -1,22 +1,22 @@
 //
 //  ViewController.m
-//  HLSCrashSolution
+//  MMCrashSolution
 //
 //  Created by liaoshen on 2020/11/14.
 //
 
 #import "ViewController.h"
-#import "HLSViewController.h"
-#import "HLSDicKeyNilViewController.h"
-#import "HLSCrashModel.h"
-#import "HLSPerson.h"
-#import "HLSView.h"
+#import "MMViewController.h"
+#import "MMDicKeyNilViewController.h"
+#import "MMCrashModel.h"
+#import "MMPerson.h"
+#import "MMView.h"
 
 #define kCrashStringError  123
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView *tableview;
-@property (nonatomic,strong)HLSCrashModel *crashModel;
+@property (nonatomic,strong)MMCrashModel *crashModel;
 
 @end
 
@@ -30,9 +30,9 @@
     [self.tableview reloadData];
 }
 
--(HLSCrashModel *)crashModel{
+-(MMCrashModel *)crashModel{
     if (!_crashModel) {
-        _crashModel = [[HLSCrashModel alloc]init];
+        _crashModel = [[MMCrashModel alloc]init];
     }
     return _crashModel;
 }
@@ -63,7 +63,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cellID"];
         cell.selectionStyle =  UITableViewCellSelectionStyleNone;
     }
-    HLSCrashModel *model = self.crashModel.dataArray[indexPath.row];
+    MMCrashModel *model = self.crashModel.dataArray[indexPath.row];
     cell.textLabel.text = model.crashName;
     
     return cell;
@@ -75,39 +75,39 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    HLSCrashModel *model = self.crashModel.dataArray[indexPath.row];
+    MMCrashModel *model = self.crashModel.dataArray[indexPath.row];
     [self crashExampleWithType:model.crashType];
 }
 
-- (void)crashExampleWithType:(HLSCrashType)type{
+- (void)crashExampleWithType:(MMCrashType)type{
     switch (type) {
-        case HLSCrashNSNull:{
+        case MMCrashNSNull:{
             id dic = [NSNull null];
             NSLog(@"%@", dic[@"age"]); 
         }
             break;
-        case HLSCrashViewForwardingMessage:{
-            HLSView *view = [[HLSView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+        case MMCrashViewForwardingMessage:{
+            MMView *view = [[MMView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
             view.backgroundColor = [UIColor redColor];
             view.hidden = NO;
             [view show];
             [self.view addSubview:view];
         }
             break;
-        case HLSCrashObjectForwardingMessage:{
+        case MMCrashObjectForwardingMessage:{
             //unrecognized selector sent to instance
-            HLSPerson *person = [[HLSPerson alloc]init];
+            MMPerson *person = [[MMPerson alloc]init];
 //            [person run];
             [person performSelector:@selector(eat)];
         }
             break;
-        case HLSCrashDicKeyNil:{
+        case MMCrashDicKeyNil:{
             NSString *str;
             NSDictionary *dic = @{str: @"key"}; // 插入nil对象崩溃
             NSLog(@"%@",dic[@"key"]);
         }
             break;
-        case HLSCrashDicValueNil:{
+        case MMCrashDicValueNil:{
             //attempt to insert nil object from objects[0]"
             NSString *str;
             NSDictionary *dic = @{@"key": str}; // 插入nil对象崩溃
@@ -116,84 +116,84 @@
             
             //    object cannot be nil
             //          NSMutableDictionary *mutDic = [[NSMutableDictionary alloc]init];
-            //          [mutDic hls_setSafeValue:@"key" forSafeKey:nil];
+            //          [mutDic MM_setSafeValue:@"key" forSafeKey:nil];
             //          [mutDic setObject:nil forKey:@"key"]; // 插入nil对象崩溃
         }
             break;
-        case HLSCrashDicValueNilForArray:{
+        case MMCrashDicValueNilForArray:{
             
             //unrecognized selector sent to instance
             NSDictionary *dic = @{@"key": @"a"};
             NSArray *arr = dic[@"key"];  // arr其实是字符串，但编译器不会报错
-            //            NSArray *arr = [dic hls_arraySafeForKey:@"key"]; //解决方案
+            //            NSArray *arr = [dic MM_arraySafeForKey:@"key"]; //解决方案
             NSLog(@"%@", arr[0]);        // 崩溃
             
         }
             break;
             
-        case HLSCrashArrayBounds:{
+        case MMCrashArrayBounds:{
             //index 3 beyond bounds
             NSArray *array= @[@1, @2, @3];
             NSNumber *num = array[3]; // 崩溃
-            //            NSNumber *num = [array hls_objectAtSafeIndex:3]; //解决方案
+            //            NSNumber *num = [array MM_objectAtSafeIndex:3]; //解决方案
             NSLog(@"%@", num);
             
         }
-        case HLSCrashMutArrayAdd:
+        case MMCrashMutArrayAdd:
         {
             //object cannot be nil
             NSMutableArray *array = [NSMutableArray arrayWithObjects:@1,@2,@3, nil];
             NSString *str;
-            //            [array hls_addObjectSafe:str];
+            //            [array MM_addObjectSafe:str];
             [array addObject:str];
         }
             break;
-        case HLSCrashMutArrayRemove:
+        case MMCrashMutArrayRemove:
         {
             //range {4, 1} extends beyond bounds [0 .. 2]"
             NSMutableArray *array = [NSMutableArray arrayWithObjects:@1,@2,@3, nil];
             [array removeObjectAtIndex:4];
-            //            [array hls_removeObjectAtIndexSafe:4];
+            //            [array MM_removeObjectAtIndexSafe:4];
         }
             break;
-        case HLSCrashMutArrayInsert:
+        case MMCrashMutArrayInsert:
         {
             // index 5 beyond bounds [0 .. 2]"
             NSMutableArray *array = [NSMutableArray arrayWithObjects:@1,@2,@3, nil];
             [array insertObject:@4 atIndex:5];
-            //            [array hls_insertObjectSafe:nil atIndex:5];
+            //            [array MM_insertObjectSafe:nil atIndex:5];
         }
             break;
-        case HLSCrashStringOperation:
+        case MMCrashStringOperation:
         {
             [self filterContentXml:nil];
         }
             break;
-        case HLSCrashMemoryExplosion:
+        case MMCrashMemoryExplosion:
         {
-            HLSDicKeyNilViewController *VC = [[HLSDicKeyNilViewController alloc]init];
+            MMDicKeyNilViewController *VC = [[MMDicKeyNilViewController alloc]init];
             [self.navigationController pushViewController:VC animated:YES];
         }
             break;
-        case HLSCrashControllerForwardingMessage:
+        case MMCrashControllerForwardingMessage:
         {
-            HLSViewController *VC = [[HLSViewController alloc]init];
+            MMViewController *VC = [[MMViewController alloc]init];
 //            [VC run:@"123" count:123];
             [VC runMore:@"123" count:123 run:@"123" run:@"123" run:@"123"];
             [self.navigationController pushViewController:VC animated:YES];
         }
             break;
-        case HLSCrashSubstringRange:
+        case MMCrashSubstringRange:
         {
             //Range {0, 8} out of bounds; string length 7"
             NSString *str = @"abcdefg";
             //            [str substringWithRange:NSMakeRange(0, 8)]; // 崩溃
-            NSString *resultString = [str hls_substringWithRangeSafe:NSMakeRange(0, 8)];;
+            NSString *resultString = [str MM_substringWithRangeSafe:NSMakeRange(0, 8)];;
             
             NSLog(@"%@",resultString);
         }
             break;
-        case HLSCrashStringTypeError:
+        case MMCrashStringTypeError:
         {
             //Format specifies type 'id' but the argument has type 'int'
             NSString *resultString = [NSString stringWithFormat:@"appkey%@",kCrashStringError];
@@ -201,17 +201,17 @@
             NSLog(@"%@",resultString);
         }
             break;
-        case HLSCrashDeadLockError1:
+        case MMCrashDeadLockError1:
         {
             [self bugThreeButtonClick];
         }
             break;
-        case HLSCrashDeadLockError2:
+        case MMCrashDeadLockError2:
         {
             [self bugTwoButtonClick];
         }
             break;
-        case HLSCrashInfError:
+        case MMCrashInfError:
         {
             //Thread 1: "Invalid number value (infinite) in JSON write"
             CGFloat num = 10.0;
@@ -255,7 +255,7 @@
             
         }
             break;
-        case HLSCrashNanError:{
+        case MMCrashNanError:{
             // 变量/变量 第二个变量是0或者0.0
              int ia = 1;
               NSInteger na = 1;

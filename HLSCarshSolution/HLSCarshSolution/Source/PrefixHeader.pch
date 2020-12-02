@@ -1,6 +1,6 @@
 //
 //  PrefixHeader.pch
-//  HLSCarshSolution
+//  MMCarshSolution
 //
 //  Created by liaoshen on 2020/11/14.
 //
@@ -8,14 +8,14 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import "HLSCrashModel.h"
-#import "NSArray+HLSCategory_lib.h"
-#import "NSMutableArray+HLSCategory_lib.h"
-#import "NSDictionary+HLSCategory_lib.h"
-#import "NSObject+HLSCategory_lib.h"
-#import "NSString+HLSCategory_lib.h"
-#import "NSNull+HLSCategory_lib.h"
-#import "HLSSafeObject.h"
-#import "HLSSafeViewController.h"
-#import "HLSSafeView.h"
+#import "MMCrashModel.h"
+#import "NSArray+MMCategory_lib.h"
+#import "NSMutableArray+MMCategory_lib.h"
+#import "NSDictionary+MMCategory_lib.h"
+#import "NSObject+MMCategory_lib.h"
+#import "NSString+MMCategory_lib.h"
+#import "NSNull+MMCategory_lib.h"
+#import "MMSafeObject.h"
+#import "MMSafeViewController.h"
+#import "MMSafeView.h"
 #endif /* PrefixHeader_pch */

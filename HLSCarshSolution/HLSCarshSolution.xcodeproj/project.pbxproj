@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E313A89256F534800B60A29 /* HLSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A88256F534800B60A29 /* HLSPerson.m */; };
-		2E313A8F256F554000B60A29 /* HLSTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A8E256F554000B60A29 /* HLSTiger.m */; };
-		2E313A98256F94AE00B60A29 /* NSNull+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */; };
-		2E313ACF257495C100B60A29 /* NSObject+HLSForwarding_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313ACE257495C100B60A29 /* NSObject+HLSForwarding_lib.m */; };
-		2E313AD5257496E700B60A29 /* HLSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AD4257496E700B60A29 /* HLSSafeObject.m */; };
-		2E313ADB25749AAC00B60A29 /* HLSSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313ADA25749AAC00B60A29 /* HLSSafeViewController.m */; };
-		2E313AE125749B6300B60A29 /* HLSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AE025749B6300B60A29 /* HLSViewController.m */; };
-		2E313AE725749D7200B60A29 /* HLSSafeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AE625749D7200B60A29 /* HLSSafeView.m */; };
-		2E313AEE25749DC600B60A29 /* HLSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AED25749DC600B60A29 /* HLSView.m */; };
+		2E313A89256F534800B60A29 /* MMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A88256F534800B60A29 /* MMPerson.m */; };
+		2E313A8F256F554000B60A29 /* MMTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A8E256F554000B60A29 /* MMTiger.m */; };
+		2E313A98256F94AE00B60A29 /* NSNull+MMCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A97256F94AE00B60A29 /* NSNull+MMCategory_lib.m */; };
+		2E313ACF257495C100B60A29 /* NSObject+MMForwarding_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313ACE257495C100B60A29 /* NSObject+MMForwarding_lib.m */; };
+		2E313AD5257496E700B60A29 /* MMSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AD4257496E700B60A29 /* MMSafeObject.m */; };
+		2E313ADB25749AAC00B60A29 /* MMSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313ADA25749AAC00B60A29 /* MMSafeViewController.m */; };
+		2E313AE125749B6300B60A29 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AE025749B6300B60A29 /* MMViewController.m */; };
+		2E313AE725749D7200B60A29 /* MMSafeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AE625749D7200B60A29 /* MMSafeView.m */; };
+		2E313AEE25749DC600B60A29 /* MMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E313AED25749DC600B60A29 /* MMView.m */; };
 		2EBA414F255F7285003FDD93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA414E255F7285003FDD93 /* AppDelegate.m */; };
 		2EBA4152255F7285003FDD93 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4151255F7285003FDD93 /* SceneDelegate.m */; };
 		2EBA4155255F7285003FDD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4154255F7285003FDD93 /* ViewController.m */; };
@@ -25,13 +25,13 @@
 		2EBA4160255F7286003FDD93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA415F255F7286003FDD93 /* main.m */; };
 		2EBA416A255F7286003FDD93 /* HLSCarshSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4169255F7286003FDD93 /* HLSCarshSolutionTests.m */; };
 		2EBA4175255F7286003FDD93 /* HLSCarshSolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4174255F7286003FDD93 /* HLSCarshSolutionUITests.m */; };
-		2EBA4191255F7979003FDD93 /* HLSDicKeyNilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4190255F7979003FDD93 /* HLSDicKeyNilViewController.m */; };
-		2EBA4197255F7B8E003FDD93 /* HLSCrashModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4196255F7B8E003FDD93 /* HLSCrashModel.m */; };
-		2EBA41B2255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA41B1255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m */; };
-		2EBA41C9255FB5DF003FDD93 /* NSArray+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA41C8255FB5DF003FDD93 /* NSArray+HLSCategory_lib.m */; };
-		2EBA41CF255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA41CE255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m */; };
-		2ECE56C72562741500250F7A /* NSObject+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE56C62562741500250F7A /* NSObject+HLSCategory_lib.m */; };
-		2ECE56CD25637FA200250F7A /* NSString+HLSCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE56CC25637FA200250F7A /* NSString+HLSCategory_lib.m */; };
+		2EBA4191255F7979003FDD93 /* MMDicKeyNilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4190255F7979003FDD93 /* MMDicKeyNilViewController.m */; };
+		2EBA4197255F7B8E003FDD93 /* MMCrashModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4196255F7B8E003FDD93 /* MMCrashModel.m */; };
+		2EBA41B2255F8944003FDD93 /* NSDictionary+MMCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA41B1255F8944003FDD93 /* NSDictionary+MMCategory_lib.m */; };
+		2EBA41C9255FB5DF003FDD93 /* NSArray+MMCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA41C8255FB5DF003FDD93 /* NSArray+MMCategory_lib.m */; };
+		2EBA41CF255FB828003FDD93 /* NSMutableArray+MMCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA41CE255FB828003FDD93 /* NSMutableArray+MMCategory_lib.m */; };
+		2ECE56C72562741500250F7A /* NSObject+MMCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE56C62562741500250F7A /* NSObject+MMCategory_lib.m */; };
+		2ECE56CD25637FA200250F7A /* NSString+MMCategory_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE56CC25637FA200250F7A /* NSString+MMCategory_lib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,24 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E313A87256F534800B60A29 /* HLSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSPerson.h; sourceTree = "<group>"; };
-		2E313A88256F534800B60A29 /* HLSPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSPerson.m; sourceTree = "<group>"; };
-		2E313A8D256F554000B60A29 /* HLSTiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSTiger.h; sourceTree = "<group>"; };
-		2E313A8E256F554000B60A29 /* HLSTiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSTiger.m; sourceTree = "<group>"; };
-		2E313A96256F94AE00B60A29 /* NSNull+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+HLSCategory_lib.h"; sourceTree = "<group>"; };
-		2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+HLSCategory_lib.m"; sourceTree = "<group>"; };
-		2E313ACD257495C100B60A29 /* NSObject+HLSForwarding_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLSForwarding_lib.h"; sourceTree = "<group>"; };
-		2E313ACE257495C100B60A29 /* NSObject+HLSForwarding_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLSForwarding_lib.m"; sourceTree = "<group>"; };
-		2E313AD3257496E700B60A29 /* HLSSafeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSSafeObject.h; sourceTree = "<group>"; };
-		2E313AD4257496E700B60A29 /* HLSSafeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSSafeObject.m; sourceTree = "<group>"; };
-		2E313AD925749AAC00B60A29 /* HLSSafeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSSafeViewController.h; sourceTree = "<group>"; };
-		2E313ADA25749AAC00B60A29 /* HLSSafeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSSafeViewController.m; sourceTree = "<group>"; };
-		2E313ADF25749B6300B60A29 /* HLSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSViewController.h; sourceTree = "<group>"; };
-		2E313AE025749B6300B60A29 /* HLSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSViewController.m; sourceTree = "<group>"; };
-		2E313AE525749D7200B60A29 /* HLSSafeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSSafeView.h; sourceTree = "<group>"; };
-		2E313AE625749D7200B60A29 /* HLSSafeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSSafeView.m; sourceTree = "<group>"; };
-		2E313AEC25749DC600B60A29 /* HLSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSView.h; sourceTree = "<group>"; };
-		2E313AED25749DC600B60A29 /* HLSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSView.m; sourceTree = "<group>"; };
+		2E313A87256F534800B60A29 /* MMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPerson.h; sourceTree = "<group>"; };
+		2E313A88256F534800B60A29 /* MMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPerson.m; sourceTree = "<group>"; };
+		2E313A8D256F554000B60A29 /* MMTiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTiger.h; sourceTree = "<group>"; };
+		2E313A8E256F554000B60A29 /* MMTiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTiger.m; sourceTree = "<group>"; };
+		2E313A96256F94AE00B60A29 /* NSNull+MMCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+MMCategory_lib.h"; sourceTree = "<group>"; };
+		2E313A97256F94AE00B60A29 /* NSNull+MMCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+MMCategory_lib.m"; sourceTree = "<group>"; };
+		2E313ACD257495C100B60A29 /* NSObject+MMForwarding_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MMForwarding_lib.h"; sourceTree = "<group>"; };
+		2E313ACE257495C100B60A29 /* NSObject+MMForwarding_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MMForwarding_lib.m"; sourceTree = "<group>"; };
+		2E313AD3257496E700B60A29 /* MMSafeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMSafeObject.h; sourceTree = "<group>"; };
+		2E313AD4257496E700B60A29 /* MMSafeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSafeObject.m; sourceTree = "<group>"; };
+		2E313AD925749AAC00B60A29 /* MMSafeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMSafeViewController.h; sourceTree = "<group>"; };
+		2E313ADA25749AAC00B60A29 /* MMSafeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSafeViewController.m; sourceTree = "<group>"; };
+		2E313ADF25749B6300B60A29 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		2E313AE025749B6300B60A29 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		2E313AE525749D7200B60A29 /* MMSafeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMSafeView.h; sourceTree = "<group>"; };
+		2E313AE625749D7200B60A29 /* MMSafeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSafeView.m; sourceTree = "<group>"; };
+		2E313AEC25749DC600B60A29 /* MMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMView.h; sourceTree = "<group>"; };
+		2E313AED25749DC600B60A29 /* MMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMView.m; sourceTree = "<group>"; };
 		2EBA414A255F7285003FDD93 /* HLSCarshSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSCarshSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBA414D255F7285003FDD93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EBA414E255F7285003FDD93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,21 +88,21 @@
 		2EBA4170255F7286003FDD93 /* HLSCarshSolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSCarshSolutionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBA4174255F7286003FDD93 /* HLSCarshSolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSCarshSolutionUITests.m; sourceTree = "<group>"; };
 		2EBA4176255F7286003FDD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EBA418F255F7979003FDD93 /* HLSDicKeyNilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSDicKeyNilViewController.h; sourceTree = "<group>"; };
-		2EBA4190255F7979003FDD93 /* HLSDicKeyNilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSDicKeyNilViewController.m; sourceTree = "<group>"; };
-		2EBA4195255F7B8E003FDD93 /* HLSCrashModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSCrashModel.h; sourceTree = "<group>"; };
-		2EBA4196255F7B8E003FDD93 /* HLSCrashModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSCrashModel.m; sourceTree = "<group>"; };
-		2EBA41B0255F8944003FDD93 /* NSDictionary+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HLSCategory_lib.h"; sourceTree = "<group>"; };
-		2EBA41B1255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HLSCategory_lib.m"; sourceTree = "<group>"; };
+		2EBA418F255F7979003FDD93 /* MMDicKeyNilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDicKeyNilViewController.h; sourceTree = "<group>"; };
+		2EBA4190255F7979003FDD93 /* MMDicKeyNilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDicKeyNilViewController.m; sourceTree = "<group>"; };
+		2EBA4195255F7B8E003FDD93 /* MMCrashModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCrashModel.h; sourceTree = "<group>"; };
+		2EBA4196255F7B8E003FDD93 /* MMCrashModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCrashModel.m; sourceTree = "<group>"; };
+		2EBA41B0255F8944003FDD93 /* NSDictionary+MMCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MMCategory_lib.h"; sourceTree = "<group>"; };
+		2EBA41B1255F8944003FDD93 /* NSDictionary+MMCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MMCategory_lib.m"; sourceTree = "<group>"; };
 		2EBA41BA255F897C003FDD93 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		2EBA41C7255FB5DF003FDD93 /* NSArray+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HLSCategory_lib.h"; sourceTree = "<group>"; };
-		2EBA41C8255FB5DF003FDD93 /* NSArray+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HLSCategory_lib.m"; sourceTree = "<group>"; };
-		2EBA41CD255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HLSCategory_lib.h"; sourceTree = "<group>"; };
-		2EBA41CE255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HLSCategory_lib.m"; sourceTree = "<group>"; };
-		2ECE56C52562741500250F7A /* NSObject+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLSCategory_lib.h"; sourceTree = "<group>"; };
-		2ECE56C62562741500250F7A /* NSObject+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLSCategory_lib.m"; sourceTree = "<group>"; };
-		2ECE56CB25637FA200250F7A /* NSString+HLSCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HLSCategory_lib.h"; sourceTree = "<group>"; };
-		2ECE56CC25637FA200250F7A /* NSString+HLSCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HLSCategory_lib.m"; sourceTree = "<group>"; };
+		2EBA41C7255FB5DF003FDD93 /* NSArray+MMCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MMCategory_lib.h"; sourceTree = "<group>"; };
+		2EBA41C8255FB5DF003FDD93 /* NSArray+MMCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MMCategory_lib.m"; sourceTree = "<group>"; };
+		2EBA41CD255FB828003FDD93 /* NSMutableArray+MMCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MMCategory_lib.h"; sourceTree = "<group>"; };
+		2EBA41CE255FB828003FDD93 /* NSMutableArray+MMCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MMCategory_lib.m"; sourceTree = "<group>"; };
+		2ECE56C52562741500250F7A /* NSObject+MMCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MMCategory_lib.h"; sourceTree = "<group>"; };
+		2ECE56C62562741500250F7A /* NSObject+MMCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MMCategory_lib.m"; sourceTree = "<group>"; };
+		2ECE56CB25637FA200250F7A /* NSString+MMCategory_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MMCategory_lib.h"; sourceTree = "<group>"; };
+		2ECE56CC25637FA200250F7A /* NSString+MMCategory_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMCategory_lib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 		2E313AEB25749DAE00B60A29 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2E313AEC25749DC600B60A29 /* HLSView.h */,
-				2E313AED25749DC600B60A29 /* HLSView.m */,
+				2E313AEC25749DC600B60A29 /* MMView.h */,
+				2E313AED25749DC600B60A29 /* MMView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,12 +201,12 @@
 		2EBA41A4255F7C13003FDD93 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2EBA4195255F7B8E003FDD93 /* HLSCrashModel.h */,
-				2EBA4196255F7B8E003FDD93 /* HLSCrashModel.m */,
-				2E313A87256F534800B60A29 /* HLSPerson.h */,
-				2E313A88256F534800B60A29 /* HLSPerson.m */,
-				2E313A8D256F554000B60A29 /* HLSTiger.h */,
-				2E313A8E256F554000B60A29 /* HLSTiger.m */,
+				2EBA4195255F7B8E003FDD93 /* MMCrashModel.h */,
+				2EBA4196255F7B8E003FDD93 /* MMCrashModel.m */,
+				2E313A87256F534800B60A29 /* MMPerson.h */,
+				2E313A88256F534800B60A29 /* MMPerson.m */,
+				2E313A8D256F554000B60A29 /* MMTiger.h */,
+				2E313A8E256F554000B60A29 /* MMTiger.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,10 +216,10 @@
 			children = (
 				2EBA4153255F7285003FDD93 /* ViewController.h */,
 				2EBA4154255F7285003FDD93 /* ViewController.m */,
-				2EBA418F255F7979003FDD93 /* HLSDicKeyNilViewController.h */,
-				2EBA4190255F7979003FDD93 /* HLSDicKeyNilViewController.m */,
-				2E313ADF25749B6300B60A29 /* HLSViewController.h */,
-				2E313AE025749B6300B60A29 /* HLSViewController.m */,
+				2EBA418F255F7979003FDD93 /* MMDicKeyNilViewController.h */,
+				2EBA4190255F7979003FDD93 /* MMDicKeyNilViewController.m */,
+				2E313ADF25749B6300B60A29 /* MMViewController.h */,
+				2E313AE025749B6300B60A29 /* MMViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -227,26 +227,26 @@
 		2EBA41AF255F8723003FDD93 /* DealwithCrashTool */ = {
 			isa = PBXGroup;
 			children = (
-				2EBA41B0255F8944003FDD93 /* NSDictionary+HLSCategory_lib.h */,
-				2EBA41B1255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m */,
-				2EBA41C7255FB5DF003FDD93 /* NSArray+HLSCategory_lib.h */,
-				2EBA41C8255FB5DF003FDD93 /* NSArray+HLSCategory_lib.m */,
-				2EBA41CD255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.h */,
-				2EBA41CE255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m */,
-				2ECE56C52562741500250F7A /* NSObject+HLSCategory_lib.h */,
-				2ECE56C62562741500250F7A /* NSObject+HLSCategory_lib.m */,
-				2ECE56CB25637FA200250F7A /* NSString+HLSCategory_lib.h */,
-				2ECE56CC25637FA200250F7A /* NSString+HLSCategory_lib.m */,
-				2E313A96256F94AE00B60A29 /* NSNull+HLSCategory_lib.h */,
-				2E313A97256F94AE00B60A29 /* NSNull+HLSCategory_lib.m */,
-				2E313ACD257495C100B60A29 /* NSObject+HLSForwarding_lib.h */,
-				2E313ACE257495C100B60A29 /* NSObject+HLSForwarding_lib.m */,
-				2E313AD3257496E700B60A29 /* HLSSafeObject.h */,
-				2E313AD4257496E700B60A29 /* HLSSafeObject.m */,
-				2E313AD925749AAC00B60A29 /* HLSSafeViewController.h */,
-				2E313ADA25749AAC00B60A29 /* HLSSafeViewController.m */,
-				2E313AE525749D7200B60A29 /* HLSSafeView.h */,
-				2E313AE625749D7200B60A29 /* HLSSafeView.m */,
+				2EBA41B0255F8944003FDD93 /* NSDictionary+MMCategory_lib.h */,
+				2EBA41B1255F8944003FDD93 /* NSDictionary+MMCategory_lib.m */,
+				2EBA41C7255FB5DF003FDD93 /* NSArray+MMCategory_lib.h */,
+				2EBA41C8255FB5DF003FDD93 /* NSArray+MMCategory_lib.m */,
+				2EBA41CD255FB828003FDD93 /* NSMutableArray+MMCategory_lib.h */,
+				2EBA41CE255FB828003FDD93 /* NSMutableArray+MMCategory_lib.m */,
+				2ECE56C52562741500250F7A /* NSObject+MMCategory_lib.h */,
+				2ECE56C62562741500250F7A /* NSObject+MMCategory_lib.m */,
+				2ECE56CB25637FA200250F7A /* NSString+MMCategory_lib.h */,
+				2ECE56CC25637FA200250F7A /* NSString+MMCategory_lib.m */,
+				2E313A96256F94AE00B60A29 /* NSNull+MMCategory_lib.h */,
+				2E313A97256F94AE00B60A29 /* NSNull+MMCategory_lib.m */,
+				2E313ACD257495C100B60A29 /* NSObject+MMForwarding_lib.h */,
+				2E313ACE257495C100B60A29 /* NSObject+MMForwarding_lib.m */,
+				2E313AD3257496E700B60A29 /* MMSafeObject.h */,
+				2E313AD4257496E700B60A29 /* MMSafeObject.m */,
+				2E313AD925749AAC00B60A29 /* MMSafeViewController.h */,
+				2E313ADA25749AAC00B60A29 /* MMSafeViewController.m */,
+				2E313AE525749D7200B60A29 /* MMSafeView.h */,
+				2E313AE625749D7200B60A29 /* MMSafeView.m */,
 			);
 			path = DealwithCrashTool;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 		2EBA4142255F7285003FDD93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HLS;
+				CLASSPREFIX = MM;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					2EBA4149255F7285003FDD93 = {
@@ -389,26 +389,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E313A8F256F554000B60A29 /* HLSTiger.m in Sources */,
+				2E313A8F256F554000B60A29 /* MMTiger.m in Sources */,
 				2EBA4155255F7285003FDD93 /* ViewController.m in Sources */,
 				2EBA414F255F7285003FDD93 /* AppDelegate.m in Sources */,
-				2EBA41C9255FB5DF003FDD93 /* NSArray+HLSCategory_lib.m in Sources */,
-				2ECE56CD25637FA200250F7A /* NSString+HLSCategory_lib.m in Sources */,
+				2EBA41C9255FB5DF003FDD93 /* NSArray+MMCategory_lib.m in Sources */,
+				2ECE56CD25637FA200250F7A /* NSString+MMCategory_lib.m in Sources */,
 				2EBA4160255F7286003FDD93 /* main.m in Sources */,
-				2EBA4197255F7B8E003FDD93 /* HLSCrashModel.m in Sources */,
-				2E313AD5257496E700B60A29 /* HLSSafeObject.m in Sources */,
-				2E313AE125749B6300B60A29 /* HLSViewController.m in Sources */,
-				2ECE56C72562741500250F7A /* NSObject+HLSCategory_lib.m in Sources */,
-				2E313AEE25749DC600B60A29 /* HLSView.m in Sources */,
+				2EBA4197255F7B8E003FDD93 /* MMCrashModel.m in Sources */,
+				2E313AD5257496E700B60A29 /* MMSafeObject.m in Sources */,
+				2E313AE125749B6300B60A29 /* MMViewController.m in Sources */,
+				2ECE56C72562741500250F7A /* NSObject+MMCategory_lib.m in Sources */,
+				2E313AEE25749DC600B60A29 /* MMView.m in Sources */,
 				2EBA4152255F7285003FDD93 /* SceneDelegate.m in Sources */,
-				2E313A89256F534800B60A29 /* HLSPerson.m in Sources */,
-				2EBA4191255F7979003FDD93 /* HLSDicKeyNilViewController.m in Sources */,
-				2E313ADB25749AAC00B60A29 /* HLSSafeViewController.m in Sources */,
-				2E313AE725749D7200B60A29 /* HLSSafeView.m in Sources */,
-				2EBA41B2255F8944003FDD93 /* NSDictionary+HLSCategory_lib.m in Sources */,
-				2EBA41CF255FB828003FDD93 /* NSMutableArray+HLSCategory_lib.m in Sources */,
-				2E313A98256F94AE00B60A29 /* NSNull+HLSCategory_lib.m in Sources */,
-				2E313ACF257495C100B60A29 /* NSObject+HLSForwarding_lib.m in Sources */,
+				2E313A89256F534800B60A29 /* MMPerson.m in Sources */,
+				2EBA4191255F7979003FDD93 /* MMDicKeyNilViewController.m in Sources */,
+				2E313ADB25749AAC00B60A29 /* MMSafeViewController.m in Sources */,
+				2E313AE725749D7200B60A29 /* MMSafeView.m in Sources */,
+				2EBA41B2255F8944003FDD93 /* NSDictionary+MMCategory_lib.m in Sources */,
+				2EBA41CF255FB828003FDD93 /* NSMutableArray+MMCategory_lib.m in Sources */,
+				2E313A98256F94AE00B60A29 /* NSNull+MMCategory_lib.m in Sources */,
+				2E313ACF257495C100B60A29 /* NSObject+MMForwarding_lib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
